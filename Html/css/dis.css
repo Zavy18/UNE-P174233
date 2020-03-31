@@ -1,0 +1,86 @@
+h1{
+    color:blue;
+    border-top: 0.15em solid rgb(0, 13, 128);
+    border-bottom: 0.15em solid rgb(0, 13, 128);
+    width: fit-content;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.titulo{
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dad3cd;
+
+}
+.Todo{
+    padding-top: 20;
+    padding-bottom: 20;
+    clear: both;
+    overflow: auto;
+    
+}
+.Miniatura{
+    padding-left: 0.8em;
+    width: 17%;
+    float: left;
+   
+}
+
+.Miniatura img{
+    width: 200px;
+}
+.Comida{
+    float: right;
+    width: 80%;
+}
+.precio{
+    float: right;
+    width: 80%;
+    padding-right: 0.5em;
+   
+}
+.dinero{
+    color: red;
+    text-align: right;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.descripcion{
+    float: right;
+    width: 80%;
+}
+.marco{
+    background-color:aliceblue;
+    overflow: auto;
+    border: 0.15em solid azure;
+    box-shadow: 40px 40px 20px #666666;
+}

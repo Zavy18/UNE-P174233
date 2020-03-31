@@ -1,17 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Title</title>
 </head>
 <body>
-    <main>
-        Hola a Todos
-    </main>
+    <nav class="navbar navbar-expand-md navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Portafolio de Luis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HTML <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">CSS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">JavaScrip <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.appnovation.com/sites/default/files/old_site_static/city_minipage/sites/default/files/HTML5-website-development.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="TEXT">HTML</h5>
+              <p class="TEXT">HTML es un lenguaje de marcado de hipertexto o “HyperText Markup Language” por el desarrollo de sus iniciales en inglés, básicamente este lenguaje se escribe en su totalidad con elementos, estos elementos están constituidos por etiquetas, contenido y atributos, que explicaremos de una manera más detallada en algunas líneas más abajo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.cssauthor.com/wp-content/uploads/2014/09/1500x500.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="TEXT">CSS</h5>
+              <p class="TEXT">CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS separa el contenido de la representación visual del sitio.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://miro.medium.com/max/3000/1*U13D7eWC_8S03jiXEcGKoQ.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="TEXT">JAVASCRIP</h5>
+              <p class="TEXT">Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas que luego son insertados en una página web y en programas más grandes, orientados a objetos mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con nuestros usuarios.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      <div class="container imagesrounded">
+          <div class="row">
+              <div class="col-md-4">
+                <img src="https://cdn.instructables.com/ORIG/FCK/XPME/FCZERDQD/FCKXPMEFCZERDQD.jpg" class="rounded-circle">
+                <h2>Menu con HTML y CSS</h2>
+                <p>Esta fue delas primeras practicas que hicimos en HTML con CSS, consistia en elaborar un menu cualquiera con los elemento de html y darles un diseño con css.</p>
+                
+                <button onclick="location.href='./HTML/Menu.html'">Llévame a otro lado</button>
+
+              </div>
+
+              <div class="col-md-4">
+                <img src="https://cdn.instructables.com/ORIG/FCK/XPME/FCZERDQD/FCKXPMEFCZERDQD.jpg" class="rounded-circle">
+                <h2>Menu con HTML y CSS checho con flex</h2>
+                <p>Recreamos el primer menu que hicimos pero ahora con las funciones de flex</p>
+                <button onclick="location.href='./HTML/Menuflex.html'">Llévame a otro lado</button>
+          
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://cdn.instructables.com/ORIG/FCK/XPME/FCZERDQD/FCKXPMEFCZERDQD.jpg" class="rounded-circle">
+                <h2>Titulo</h2>
+                <p>Cada vez que pulse el botón 'Nueva palabra', se creará una palabra aleatoria diferente. Puedes elegir entre el listado de 4000 palabras aleatorias, o el listado reducido de 500 palabras fáciles para niños. Y también puedes elegir el idioma que desees. Si encuentras alguna palabra que contenga un error o crees que no es conveniente, por favor, escríbenos el motivo y lo tendremos en cuenta. Puedes utilizar el siguiente formulario para hacerlo (no hace falta que introduzcas tu email</p>
+                <button class="btn btn-secondary" type="button">View details</button>
+            </div>
+
+          </div>
+      
+
+      <hr>
+
+      <div class="row">
+          <div class="col-md-7">
+            <h2>titulo del esta cosa</h2>
+            <p>un mega parrafo que no sirve para nada solo para hacer pruebas que no sriven y estoy molesto ya me quiero morri alv dejenme ir al otro lado ya no quiero hacer nada en esta vuisda </p>
+          </div>
+
+          <div class="col-md-5">
+            <img src="https://via.placeholder.com/500x500" class="w-100">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-5">
+          <img src="https://via.placeholder.com/500x500" class="w-100">
+        </div>
+
+        <div class="col-md-7">
+          <h2>titulo del esta cosa</h2>
+          <p>un mega parrafo que no sirve para nada solo para hacer pruebas que no sriven y estoy molesto ya me quiero morri alv dejenme ir al otro lado ya no quiero hacer nada en esta vuisda </p>
+      </div>
+    </div>
+
+    <hr>
+
+      <div class="row">
+          <div class="col-md-7">
+            <h2>titulo del esta cosa</h2>
+            <p>un mega parrafo que no sirve para nada solo para hacer pruebas que no sriven y estoy molesto ya me quiero morri alv dejenme ir al otro lado ya no quiero hacer nada en esta vuisda </p>
+          </div>
+
+          <div class="col-md-5">
+            <img src="https://via.placeholder.com/500x500" class="w-100">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+          <div class="col-md-5">
+            <img src="https://via.placeholder.com/500x500" class="w-100">
+          </div>
+
+          <div class="col-md-7">
+            <h2>titulo del esta cosa</h2>
+            <p>un mega parrafo que no sirve para nada solo para hacer pruebas que no sriven y estoy molesto ya me quiero morri alv dejenme ir al otro lado ya no quiero hacer nada en esta vuisda </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <span class="float-left"> 0 2020 - 2021 company, inc,</span>
+      <span class="float-right"><a href=""> back to top</a></span>
+
+    </div>
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,147 @@
+h1{
+    color: red;
+}
+body{
+    background-color: grey;
+    position: relative;
+    margin-top: 36px;
+}
+.Horario{
+    display: grid;
+    grid-template-columns:  1fr[x] 0.25fr[Hora] 0.45fr[Lunes] 1fr[Martes] 1fr[Miercoles] 1fr[Jueves] 1fr[Viernes] 1fr[y] 1.25fr[z];
+    grid-template-rows: 0.25fr[d] 1fr[Hora3] 5fr[Hora4] 5fr[Hora5] 5fr[Hora6] 5fr[Hora7] 5fr[Hora8] 5fr[Hora9] 5fr[y];
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    
+}
+.Lunes{
+    grid-column: Lunes;
+}
+.Martes{
+    grid-column: Martes;
+}
+.Miercoles{
+    grid-column: Miercoles;
+}
+.Jueves{
+    grid-column: Jueves;
+}
+.Viernes{
+    grid-column: Viernes;
+}
+.Hora{
+    grid-column: Hora;
+}
+.Hora3{
+    grid-row: Hora3;
+    
+}
+.Hora4{
+    grid-row: Hora4;
+   
+}
+.Hora5{
+    grid-row: Hora5;
+   
+}
+.Hora6{
+    grid-row: Hora6;
+    
+}
+.Hora7{
+    grid-row: Hora7;
+    
+}
+.Hora8{
+    grid-row: Hora8;
+    
+}
+.Hora9{
+    grid-row: Hora9;
+    
+}
+.HIN5{
+    grid-row-start: Hora5;
+    
+}
+.HOUT7{
+    grid-row-end: Hora7;
+    
+}
+.HIN7{
+    grid-row-start: Hora7;
+    
+}
+.HOUT9{
+    grid-row-end: Hora9;
+}
+.HIN3{
+    grid-row-start: Hora3;
+    
+}
+.HOUT5{
+    grid-row-end: Hora5;
+}
+.HIN6{
+    grid-row-start: Hora6;
+    
+}
+.HOUT8{
+    grid-row-end: Hora8;
+}
+nav{
+    height: 36px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: gold;
+    z-index: 100;
+}
+.Metrologia{
+    background-color: indigo;
+    border: 5px solid black;
+    position: relative;
+}
+.diseno{
+    background-color: lightcoral;
+    border: 5px solid black;
+    position: relative;
+}
+.mante{
+    background-color: lightseagreen;
+    border: 5px solid black;
+    position: relative;
+}
+.contro{
+    background-color: yellow;
+    border: 5px solid black;
+    position: relative;
+}
+.tuto{
+    background-color: teal;
+    border: 5px solid black;
+    position: relative;
+}
+.Ecuaciones{
+    background-color: red;
+    border: 5px solid black;
+    position: relative;
+}
+.web{
+    background-color: royalblue;
+    border: 5px solid black;
+    position: relative;
+}
+.equis{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0px;
+    right: 0px;
+    
+}
+.imagen img{
+    width: 15px;
+    
+}

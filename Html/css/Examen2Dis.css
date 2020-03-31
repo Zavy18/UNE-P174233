@@ -1,0 +1,88 @@
+h1{
+    color: red;
+    text-align: center;
+}
+body{
+    margin-top: 56px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+nav{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: gray;
+    z-index: 100;
+}
+.Global{
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.Contenedor{
+ 
+    background-color: white;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 20px 20px 10px #666666;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+    transition: width 2s, cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s, transform 1s;
+}
+.Contenedor:hover{
+    transform: rotate(45deg);
+    background-color: gray;
+}
+
+.Imagen{
+    margin-top: 5px;
+    
+}
+.Nombre{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+.Carrera{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Akronim', cursive;
+   
+}
+.Descripcion{
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    
+}
+.Imagen img{
+    width: 110px;
+    height: 110px;
+    border-radius: 60px;
+    margin-top: -50px;
+    box-shadow: 5px 5px 2px #666666;
+    
+}
+.Mini img{
+    width: 25px;
+    border-radius: 35px;
+    
+}
+.Mini{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
