@@ -3,3 +3,8 @@ body{
                 linear-gradient(127deg, rgba(157, 189, 15, 0.8), rgba(0,255,0,0) 70.71%),
                 linear-gradient(336deg, rgba(58, 58, 230, 0.8), rgba(0,0,255,0) 70.71%);
 }
+.posicion{
+    margin-top: 500px;
+    text-align: center;
+    font-size: 5em;
+}
